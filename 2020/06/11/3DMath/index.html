@@ -5,13 +5,17 @@
   
 
   
-  <title>monkeyCode</title>
+  <title>3DMath | monkeyCode</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="monkeyCode">
-<meta property="og:url" content="https://monkeycode.tech/index.html">
+  <meta name="description" content="坐标系 左右手坐标系 多坐标系  向量 分量：3D 向量顾名思义就是处于三维坐标系中的，由 x、y 和 z 进行分量的构成 平行四边形法则:向量之间的加减法 向量 &amp; 标量 的乘除 模长：向量的长度大小：x、y 和 z 的平方和再开根号 单位向量，也就是模长为 1 的向量 向量的归一化：也就是将 模长 变成 1 —— 向量的各个分量除以模长 向量点积：两个向量的分量进行相乘得到的结果再相加">
+<meta property="og:type" content="article">
+<meta property="og:title" content="3DMath">
+<meta property="og:url" content="https://monkeycode.tech/2020/06/11/3DMath/index.html">
 <meta property="og:site_name" content="monkeyCode">
+<meta property="og:description" content="坐标系 左右手坐标系 多坐标系  向量 分量：3D 向量顾名思义就是处于三维坐标系中的，由 x、y 和 z 进行分量的构成 平行四边形法则:向量之间的加减法 向量 &amp; 标量 的乘除 模长：向量的长度大小：x、y 和 z 的平方和再开根号 单位向量，也就是模长为 1 的向量 向量的归一化：也就是将 模长 变成 1 —— 向量的各个分量除以模长 向量点积：两个向量的分量进行相乘得到的结果再相加">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-06-11T02:56:20.000Z">
+<meta property="article:modified_time" content="2020-06-11T07:09:32.736Z">
 <meta property="article:author" content="monkeyCode">
 <meta property="article:tag" content="code">
 <meta property="article:tag" content="front">
@@ -63,9 +67,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-3DMath" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-3DMath" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/06/11/3DMath/" class="article-date">
   <time datetime="2020-06-11T02:56:20.000Z" itemprop="datePublished">2020-06-11</time>
@@ -78,8 +80,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/11/3DMath/">3DMath</a>
+    <h1 class="article-title" itemprop="name">
+      3DMath
     </h1>
   
 
@@ -146,124 +148,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="react-router-react-router-question" class="article article-type-react-router" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/06/08/react-router-question/" class="article-date">
-  <time datetime="2020-06-08T02:57:48.000Z" itemprop="datePublished">2020-06-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/08/react-router-question/">react-router-question</a>
-    </h1>
+    <a href="/2020/06/08/react-router-question/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">react-router-question</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>react-router 的组件化一直以来引人非议，但这却非常迎合 react  的技术思想 。这种很别扭的 router 写法，让很多人都希望写 状态式的 或者直接把 开发文件路径 当成路由（创建工程文件就是创建路由）。  </p>
-<h2 id="组件化一切"><a href="#组件化一切" class="headerlink" title="组件化一切"></a>组件化一切</h2><p>react 早期的 router 都是状态化的…  </p>
-<p>但是后面是官方宣扬 component 思想之后才改变的。他们喜欢把组件分 UI Component 和 Container Component。前者很好理解，就是我们日常写的 UI 组件，99%的普通开发者基本都是在写 UI Component 。而负责数据和业务逻辑的后者应该只有库/框架 开发者在写。react-redux 如此，react-router 也是如此。  </p>
-<p>但是达成这种思想的根本核心还是 react 中数据流在组件中是单向流动的特性。这个特性从 react 面世之初就带这着一个 facebook 中永远取消不了的未读信息这个 bug 让人熟记，而且也是 react 确保数据来源唯一性的重要手段。但又约束了众多第三方库中开发思维。<br>作为一个 router 管理库，其核心就是把一系列 <em>状态</em> 管理在一个地方，方便开发者在想用的时候用。但是想要把 <em>状态</em> 灵活的插入指定的组件而不依靠第三方数据流管理库的话：加个父组件嵌套是最理想的。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-typescript" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/06/02/typescript/" class="article-date">
-  <time datetime="2020-06-02T11:20:07.000Z" itemprop="datePublished">2020-06-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/02/typescript/">typescript</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>用了大半年的 <code>typescript</code> 。<br>说实话，非常失望。<br>应该是太过于期待 <code>typescript</code> 是一个拥有新时代语言特性。<br>但实际上却只是一个大型语法糖。<br>在 <code>runtime</code> 里面，连简单大的类型判断都不能用，应该在 <code>runtime</code> 的时候，它依旧是 <code>javascript</code></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-start" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/05/18/start/" class="article-date">
-  <time datetime="2020-05-18T07:26:11.000Z" itemprop="datePublished">2020-05-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/05/18/start/">Start</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>just like a monkey coding<br>⌨️ 🐒</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/have-fun/" rel="tag">have fun</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
